@@ -23,7 +23,7 @@
                 <configuration>
                     <imageName>aggenebbisj/ping</imageName>
                     <!-- Directory that contains the Dockerfile -->
-                    <dockerDirectory>${basedir}</dockerDirectory>
+                    <dockerDirectory>${basedir}/src/main/docker</dockerDirectory>
                     <resources>
                         <resource>
                             <targetPath>/</targetPath>
